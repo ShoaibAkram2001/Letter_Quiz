@@ -11,46 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="fill"
-        android:background="#EFE7E7"
+        android:background="@color/purple_200"
         android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="Welcome to the Quiz App!"
-            android:textSize="24sp"
+            android:text="Welcome to My Quiz App "
+            android:textColor="@color/white"
+            android:textSize="22sp"
             android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="Take quizzes and test your knowledge"
-            android:textColor="@color/purple_500"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/startQuizButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp"
-            android:text="Start Quiz"
-            android:textColor="@android:color/white"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/viewResultsButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp"
-            android:text="View Results"
-            android:textColor="@android:color/white"
-            android:textSize="18sp" />
 
     </LinearLayout>
 

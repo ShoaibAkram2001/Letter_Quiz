@@ -10,11 +10,11 @@
 
     <item
         android:id="@+id/startQuizItem"
-        android:title="Start Quiz" />
+        android:title="Take Quiz" />
     <!--android:icon="@drawable/ic_question_mark_24"-->
     <item
         android:id="@+id/showResultItem"
-        android:title="Results"
+        android:title="Total Results"
         />
     <!-- android:icon="@drawable/baseline_double_arrow_24"-->
 </menu>

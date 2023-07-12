@@ -11,9 +11,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#EFE7E7"
+        android:background="@color/purple_200"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        >
 
         <ImageView
             android:id="@+id/imageView2"
@@ -28,22 +30,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textColor="@color/white"
             android:text="Shoaib Akram"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Software Engineer" />
 
         <Button
             android:id="@+id/visitGithubBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GitHub" />
+            android:background="@drawable/roundbutton"
+            android:layout_marginTop="10dp"
+            android:text="Go to GitHub" />
     </LinearLayout>
 
 </FrameLayout>
